@@ -1,0 +1,51 @@
+{
+  "name": "prior-security-api",
+  "version": "1.0.0",
+  "description": "prior-security-api",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx standard",
+    "start": "node ./src/start.js",
+    "dev": "nodemon ./src/start.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cristiandi/prior-security-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cristiandi/prior-security-api/issues"
+  },
+  "homepage": "https://github.com/Cristiandi/prior-security-api#readme",
+  "devDependencies": {
+    "jest": "^26.0.1",
+    "nodemon": "^2.0.4",
+    "standard": "^14.3.4",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "firebase-admin": "^8.12.1",
+    "formidable": "^1.2.2",
+    "knex": "^0.21.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7",
+    "strong-error-handler": "^3.4.0",
+    "twilio": "^3.45.0"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  }
+}
